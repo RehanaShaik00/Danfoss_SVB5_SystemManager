@@ -1,0 +1,32 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress open",
+    "Tags": "npx cypress-tags run -e TAGS='@Clear' --headed --browser chrome",
+    "dashboard": "node_modules\\.bin\\cypress run --record --key 3240460f-9e41-4a48-b4aa-da67b331bf22",
+    "feature": "npx cypress run --spec cypress\\integration\\Danfoss\\*.feature --headed --browser chrome",
+    "cucumberhtmlreport": "node cucumber-html-report.js"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "nonGlobalStepDefinitions": true
+  },
+  "author": "Rehana",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.0.0",
+    "cypress-cucumber-preprocessor": "^4.1.4",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.17.0"
+  }
+}

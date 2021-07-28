@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "SystemView",
+    "line": 1,
+    "id": "systemview",
+    "tags": [],
+    "uri": "SystemView.feature",
+    "elements": [
+      {
+        "id": "systemview;verify-system-view",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify System View",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I click on Stem View",
+            "result": {
+              "status": "passed",
+              "duration": 9740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select suction MT",
+            "result": {
+              "status": "passed",
+              "duration": 1138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on show details",
+            "result": {
+              "status": "passed",
+              "duration": 436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "select other Device",
+            "result": {
+              "status": "passed",
+              "duration": 439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on Show details",
+            "result": {
+              "status": "passed",
+              "duration": 311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I Click on Hide details",
+            "result": {
+              "status": "passed",
+              "duration": 366000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

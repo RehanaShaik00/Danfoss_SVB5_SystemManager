@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Schedules",
+    "line": 1,
+    "id": "schedules",
+    "tags": [],
+    "uri": "Schedule.feature",
+    "elements": [
+      {
+        "id": "schedules;verift-the-schedules",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verift the Schedules",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to Schedules",
+            "result": {
+              "status": "passed",
+              "duration": 6407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I Click on view text",
+            "result": {
+              "status": "passed",
+              "duration": 5054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I click on Pdf",
+            "result": {
+              "status": "passed",
+              "duration": 360000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

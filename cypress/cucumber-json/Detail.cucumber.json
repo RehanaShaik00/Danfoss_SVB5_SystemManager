@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Detail",
+    "line": 1,
+    "id": "detail",
+    "tags": [],
+    "uri": "Detail.feature",
+    "elements": [
+      {
+        "id": "detail;verify-the-detail",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify the Detail",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I click on Details",
+            "result": {
+              "status": "passed",
+              "duration": 11431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on History Login",
+            "result": {
+              "status": "passed",
+              "duration": 3660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I set Date",
+            "result": {
+              "status": "passed",
+              "duration": 1616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I change Time",
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I close",
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

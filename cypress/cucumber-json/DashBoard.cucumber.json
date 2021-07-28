@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Dashboard",
+    "line": 1,
+    "id": "dashboard",
+    "tags": [],
+    "uri": "DashBoard.feature",
+    "elements": [
+      {
+        "id": "dashboard;set-high-temp,-low-temp-and-delay",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Set High Temp, Low Temp and Delay",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I off the Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 11252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Set High temp alarm limit 25.0deg SVB5",
+            "result": {
+              "status": "passed",
+              "duration": 12799000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "set Low temp alarm limit -5.0deg SVB5",
+            "result": {
+              "status": "passed",
+              "duration": 1446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Set Alarm delay 0 SVB5",
+            "result": {
+              "status": "passed",
+              "duration": 1431000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
