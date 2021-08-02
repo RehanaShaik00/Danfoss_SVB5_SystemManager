@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\cypress open",
+    "test": "cypress open",
     "Tags": "npx cypress-tags run -e TAGS='@Clear' --headed --browser chrome",
     "dashboard": "node_modules\\.bin\\cypress run --record --key 3240460f-9e41-4a48-b4aa-da67b331bf22",
     "feature": "npx cypress run --spec cypress\\integration\\Danfoss\\*.feature --headed --browser chrome",
